@@ -11,6 +11,14 @@ public class pupusas {
     public pupusas(String restaurante){
         this.restaurante=restaurante;
     }
+    // aca solo estas pasando un parametro y debes pasar dos:
+    /*
+    public pupusas(String ingrediente,String restaurante){
+        this.ingrediente=ingrediente;
+        this.restaurante=restaurante;
+    }
+
+    */
 
     // uso setter y getter
     public void setIngrediente(String ingrediente){
