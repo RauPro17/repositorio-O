@@ -4,6 +4,17 @@ public class laptop {
     private  String marca;
     private String modelo;
     private String empresa;
+    //No puedes tener dos constuctores iguales.... si quieres generar una sobre carga la forma correcta es: 
+    /*
+    public laptop(){
+        marca= "";
+        empresa="";
+    } Aca se usan los setter y los getters para meterle balores, si no no tienen senido tampoco
+    public laptop(String marca,String modelo){
+        this.marca=marca;
+        this.modelo=modelo;
+    }
+    */
     public laptop(String pmarca,String empresa){
         this.marca= marca;
         this.empresa=empresa;
