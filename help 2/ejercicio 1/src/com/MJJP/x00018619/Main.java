@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
      public   laptop compu= new laptop("mac","apple");
         laptop compu2= new laptop("mac", "OS X");
-     public   pupusas pupa1= new pupusas("la carreta","chicharron");
+     public   pupusas pupa1= new pupusas("la carreta","chicharron"); //en este caso tienes dos parametros cuando en el constcutor solo hay uno
        public pupusas pupa2= new pupusas("los cruz","queso");
 
         compu.datos1();
